@@ -30,4 +30,4 @@ Feature descriptions briefly as follows:
 * Developed multiple classification models to predict whether the airline will be referred by a passenger 
 * Performed Sentiment Analysis on passenger reviews which included Tokenization and Lemmatization 
 * Used Logistic Regression, XGBoost, KNN, SVM, Decision Tree etc. and performed Hyperparameter Tuning as well. 
-* Support Vector Machine Model performed the best with the F1 score of 94.93 %ataset.
+* Support Vector Machine Model performed the best with the F1 score of 94.93 %.
