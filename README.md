@@ -2,7 +2,7 @@
 In this project, I have built various predictive models to find whether the reviewer recommends travelling by a particular airline. The goal is to find the model that fits best into the dataset 'data_airline_reviews.xlsx'
 
 
-# PROBLEM STATEMENT
+# Problem Statement
 
 Data includes airline reviews from 2006 to 2019 for popular airlines around the world with multiple choice and free text questions. Data is scraped in Spring 2019. The main objective is to predict whether passengers will refer the airline to their friends.
 
@@ -25,6 +25,9 @@ Feature descriptions briefly as follows:
 *   valueformoney: Rated between 1-5
 *   recommended: Binary, target variable
 
-# CONCLUSION
+# Conclusion
 
-**Support Vector Machine** being the model with highest accuracy rate by a very small margin, works best among the experimented models for the given dataset.
+* Developed multiple classification models to predict whether the airline will be referred by a passenger 
+* Performed Sentiment Analysis on passenger reviews which included Tokenization and Lemmatization 
+* Used Logistic Regression, XGBoost, KNN, SVM, Decision Tree etc. and performed Hyperparameter Tuning as well. 
+* Support Vector Machine Model performed the best with the F1 score of 94.93 %ataset.
